@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import utilities.Helper;
-
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -22,12 +21,13 @@ public class TestBase {
 
     }
 
-    @AfterClass
     // method for close driver
+    @AfterClass
     public void teardown(){
         driver.quit();
     }
 
+    // method for take screenshot while test case failed
     @AfterMethod
     public void takescreenshot(ITestResult result) {
 

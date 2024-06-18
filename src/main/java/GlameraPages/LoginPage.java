@@ -3,9 +3,6 @@ import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class LoginPage {
@@ -21,7 +18,7 @@ public class LoginPage {
     private final By phonefield = By.id("mat-input-0");
     private final By passwordfield = By.id("mat-input-1");
     private final By signinbutton = By.xpath("//span[@class='mdc-button__label']");
-    private final By errormessage = By.xpath("//div[@role='alert']");
+    private final By errormessage = By.xpath("//div[contains(text(),'Invaild user name or password')]");
 
 
 
@@ -36,7 +33,7 @@ public class LoginPage {
         // wait until alert message is present
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        // to check error message that can not log in
+       // to check error message that can not log in
         WebElement error = driver.findElement(errormessage);
         Assert.assertEquals(error.getText(),"Invaild user name or password" );
 

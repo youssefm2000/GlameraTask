@@ -1,5 +1,4 @@
 package GlameraTest;
-
 import GlameraPages.LoginPage;
 import data.DataReader;
 import io.qameta.allure.Description;
@@ -8,7 +7,6 @@ import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class LoginTest extends TestBase {
