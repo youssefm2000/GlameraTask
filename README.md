@@ -26,6 +26,11 @@
 ![image](https://github.com/youssefm2000/Amazon_SeleniumFramework/assets/74185165/3fdce0b7-71da-4df1-81a0-bf3d4926c736)
 
 ### 🚀 Running Tests:
+ * to execute test case:
+ * `Open The Project in intelliJ `
+ * `Go to TestNG.xml `
+ * `Right Click and Select Debug `
+   
  * to execute tests with report:` allure serve allure-results `
 ### 🗃 Generate reports:
  * Allure Report will open automatically after Execution.
@@ -36,4 +41,6 @@
   <img width="921" alt="allure" src="https://github.com/youssefm2000/Amazon_SeleniumFramework/assets/74185165/6a94320e-d74f-41a1-ba4b-6dd89ffe0e9a">
 
   ### 🚀 For Watching Running Test Cases:
+   <img width="921" alt="allure" src="https://github.com/youssefm2000/Amazon_SeleniumFramework/assets/74185165/59ffe988-354d-4f7c-ad2e-67e99951efa7">
+
   
