@@ -31,7 +31,8 @@
  * `Go to TestNG.xml `
  * `Right Click and Select Debug `
    
- * to execute tests with report:` allure serve allure-results `
+ * to execute tests with report:
+ * ` allure serve allure-results `
 ### 🗃 Generate reports:
  * Allure Report will open automatically after Execution.
 <div align="center">
